@@ -1,0 +1,60 @@
+/* Color */
+body {
+  color: rebeccapurple;
+  color: teal;
+}
+
+h1 {
+  color: rgb(360 360 3600 80%);
+}
+
+h2 {
+  color: hwb(194 0% 0% / 0.5);
+  color: hsl(150 30% 60% / 80%);
+}
+
+h3 {
+  color: lab(50% 40 59.5 / 0.5);
+  color: lch(92.2% 72.2 50 / 0.5);
+}
+
+h4 {
+  color: oklch(60% 0.15 50 / 0.5);
+  color: oklab(75% 0.1 0.1 / 0.5);
+}
+
+/* Relative CSS colors */
+p {
+  /* HSL hue change */
+  color: hsl(from red 240deg s l);
+
+  /* HWB alpha channel change */
+  color: hwb(from green h w b / 0.5);
+
+  /* LCH lightness change */
+  color: lch(from blue calc(l + 20) c h);
+
+  /* light-dark */
+  color: light-dark(white, black);
+  color: light-dark(rgb(255 255 255), rgb(0 0 0));
+}
+
+/* Background Color */
+body {
+  background-color: #333;
+}
+
+/* Font Size */
+p {
+  font-size: 1rem;
+  font-size: 1em;
+  font-size: x-small;
+  font-size: smaller;
+  font-size: 12px;
+  font-size: 80%;
+  font-size: inherit;
+  font-size: initial;
+  font-size: revert;
+  font-size: revert-layer;
+  font-size: unset;
+}

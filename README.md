@@ -1,6 +1,8 @@
 # 30 Days of CSS
 
-This plan is designed to help me master CSS in 30 days, with 2-3 hours of daily study and practice. Each day focuses on a specific topic, building on the previous day, with practical exercises to reinforce learning.
+## Master Plan
+
+    This plan is designed to help me master CSS in 30 days, with 2-3 hours of daily study and practice. Each day focuses on a specific topic, building on the previous day, with practical exercises to reinforce learning.
 
 ## Week 1: Foundations and Basic Styling
 
@@ -9,6 +11,12 @@ This plan is designed to help me master CSS in 30 days, with 2-3 hours of daily 
 - **Learn**: What is CSS? Syntax (selectors, properties, values). Including CSS (inline, internal, external).
 - **Practice**: Style a simple HTML page with `color`, `background-color`, and `font-size`.
 - **Resource**: MDN Web Docs (CSS Basics).
+
+#### Documentation
+
+- [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+- [background-color](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+- [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
 
 ### Day 2: Selectors (Part 1)
 
