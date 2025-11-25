@@ -1,0 +1,29 @@
+/* Day 2 CSS */
+
+#id-1 {
+  color: hsla(150, 42%, 69%, 0.5);
+}
+.class-1 {
+  color: orangered;
+}
+
+/* & nesting selector */
+.parentRule {
+  color: goldenrod;
+  &.childRule {
+    color: blueviolet;
+  }
+}
+/* attribute selector */
+a[href="https://google.com"]
+{
+  color: cyan;
+}
+/* type */
+li[type="i"] {
+  background-color: lime;
+}
+/* Next Sibling combinator */
+.list li + {
+  font-size: 2em;
+}
